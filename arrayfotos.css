@@ -1,0 +1,61 @@
+/* Antonio Carlos Moruno Gómez */
+
+body{
+}
+
+img{
+	width:290px;
+	height:210px;
+}
+
+div#container{
+	width:900px;
+	margin:0px auto;
+}
+
+div#container div{
+	width:290px;
+	height:260px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* float:left; */
+	text-align:center;
+}
+
+div#container div:hover {
+    transform: translate(0px, -20px);
+    transition: all 500ms ease;
+}
+
+div#container div#gallo{
+	position:absolute;
+	left:700px;
+}
+
+div#container div#libelula1{
+	position:absolute;
+	top:400px;
+	left:700px;
+}
+
+div#container div#aranha1{
+	position:absolute;
+	top:400px;
+}
+
+div#container div#calcetines{
+	position:absolute;
+	top:210px;
+	left:460px;
+}
+
+div#container div#lagartija{
+	position:absolute;
+	top:210px;
+	left:900px;
+}
+
+div#container div#libelula3{
+	position:absolute;
+	top:600px;
+	left:460px;
+}
